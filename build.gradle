@@ -4,6 +4,7 @@ buildscript {
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:2.1.0'
+    classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
   }
 }
 
@@ -25,7 +26,7 @@ ext {
   javaVersion = JavaVersion.VERSION_1_7
 
   GROUP = 'com.squareup.leakcanary'
-  VERSION_NAME = "1.4-SNAPSHOT"
+  VERSION_NAME = "1.5"
   POM_PACKAGING = "pom"
   POM_DESCRIPTION= "Leak Canary"
 
